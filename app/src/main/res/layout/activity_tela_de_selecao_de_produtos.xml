@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Telas.TelaDeSelecaoDeProdutos">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLista"
+        android:layout_width="match_parent"
+        android:layout_height="601dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="47dp" />
+
+    <Button
+        android:id="@+id/btnCarrinho"
+        android:layout_width="106dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:backgroundTint="#188DBC"
+        android:text="Carrinho de Itens" />
+
+    <TextView
+        android:id="@+id/TvQntItensCarrinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="687dp"
+        android:layout_toStartOf="@+id/btnCarrinho"
+        android:text="0"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnNewSapato"
+        android:layout_width="93dp"
+        android:layout_height="69dp"
+        android:text="Novo Sapato" />
+
+    <TextView
+        android:id="@+id/tvNumVenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="163dp"
+        android:text="Numero da Venda :" />
+
+    <TextView
+        android:id="@+id/tvIdvenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="688dp" />
+
+    <Button
+        android:id="@+id/btnNewCompra"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#468C1B"
+        android:text="Nova Compra" />
+</RelativeLayout>

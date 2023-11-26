@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1C5C">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="643dp"
+        android:background="#F9FFF7"
+        android:text="Cadastro de produto"
+        android:textSize="34sp" />
+
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="554dp"
+        android:background="#F3E7E7"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="313dp"
+        android:layout_marginBottom="552dp"
+        android:background="#FFFFFF"
+        android:text="Nome :"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="305dp"
+        android:backgroundTint="#E6FF00"
+        android:text="Salvar"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnCancelarFinal"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="307dp"
+        android:backgroundTint="#FF0000"
+        android:text="Cancelar"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/edValor"
+        android:layout_width="263dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="501dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="314dp"
+        android:layout_marginBottom="502dp"
+        android:background="#FFFFFF"
+        android:text="Valor :"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edTamanho"
+        android:layout_width="263dp"
+        android:layout_height="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="452dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/TvSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="451dp"
+        android:background="#FFFFFF"
+        android:text="Tamanho :"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edTipo"
+        android:layout_width="263dp"
+        android:layout_height="21dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-309dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="401dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvTipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="400dp"
+        android:background="#FFFFFF"
+        android:text="Tipo :"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="312dp"
+        android:layout_marginBottom="605dp"
+        android:background="#FFFFFF"
+        android:text="Id" />
+
+    <TextView
+        android:id="@+id/tvIdText"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="604dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF" />
+</RelativeLayout>

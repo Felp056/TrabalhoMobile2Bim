@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B1780">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="643dp"
+        android:background="#F9FFF7"
+        android:text="Cadastro do Usuario"
+        android:textSize="34sp" />
+
+    <EditText
+        android:id="@+id/edSenha"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="385dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="319dp"
+        android:layout_marginBottom="514dp"
+        android:background="#FFFFFF"
+        android:text="Nome :"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="512dp"
+        android:background="#F3E7E7"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvValor"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="303dp"
+        android:layout_marginBottom="447dp"
+        android:background="#FFFFFF"
+        android:text="Sobrenome :"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edSobrenome"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="448dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/TvSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="317dp"
+        android:layout_marginBottom="386dp"
+        android:background="#FFFFFF"
+        android:text="Senha :"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="262dp"
+        android:backgroundTint="#E6FF00"
+        android:text="Salvar"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnCancelarFinal"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="229dp"
+        android:layout_marginBottom="264dp"
+        android:backgroundTint="#FF0000"
+        android:text="Cancelar"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="336dp"
+        android:background="#FFFFFF"
+        android:text="Matricula" />
+
+    <TextView
+        android:id="@+id/tvMatriculaReal"
+        android:layout_width="271dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="335dp"
+        android:background="#FFFFFF" />
+</RelativeLayout>

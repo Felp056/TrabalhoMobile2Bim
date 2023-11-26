@@ -1,0 +1,113 @@
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/topshoes"
+    android:clipToOutline="true">
+
+    <TextView
+        android:id="@+id/shoes_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="62dp"
+        android:gravity="top"
+        android:text="@string/shoes_app"
+        android:textAppearance="@style/shoes_app" />
+
+    <EditText
+        android:id="@+id/edMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoes_app"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="467dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoes_app"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="338dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvMatricula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="478dp"
+        android:layout_toStartOf="@+id/edMatricula"
+        android:text="Matricula :"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="350dp"
+        android:layout_toStartOf="@+id/edMatricula"
+        android:text="Senha :"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="3dp"
+        android:layout_alignBottom="@+id/edMatricula"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="-128dp"
+        android:background="@color/white"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="3dp"
+        android:layout_alignBottom="@+id/edMatricula"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginBottom="-1dp"
+        android:background="@color/white"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/btnNewUser"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="159dp"
+        android:backgroundTint="#1A1650"
+        android:text="New User" />
+
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNewUser"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="53dp"
+        android:backgroundTint="#4E9705"
+        android:text="Login" />
+</RelativeLayout>
